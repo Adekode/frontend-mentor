@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+.nav-right{
+    margin: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-link{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: x-small;
+}
+.main-content{
+    margin: 60px;
+}
+.main-body img{
+  width: 800px;
+
+
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color:white;
+    border: 1px solid black;
+    padding: 12px 34px;
+    font-size: 13px;
+    background-color: red;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid #F44336;
+    background: black;
+    transition: 1s;
+}
+.two-top{
+display: flex;
+gap: 15px;
+}
+.main-col{
+    display: flex;
+    padding-top: 40px;
+    gap: 30px;
+}
+.main-col h1{
+    font-size: 35PX;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+.main-col p{
+   width: 30;
+   padding-bottom: 20px 
+}
+
+.back-position{
+background-color:hsl(240, 100%, 5%);
+padding: 60px;
+}
+.back-position p{
+    color: gray;
+    padding-bottom: 6px;
+    line-height: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+}
+.back-position h3{
+    color: white;
+    padding-bottom: 6px;
+
+    
+}
+.back-position h2{
+    color: darkgoldenrod;
+    padding-bottom: 20px;
+}
+.color-h3{
+    color: darkgoldenrod;
+}
+hr{
+    line-height: 1;
+}
+h3{
+    padding-top: 20px;
+}
+/* ============
+      footer
+===============
+*/
+.main-footer img{
+width: 80px;
+}
+.main-footer{
+    display: flex;
+    gap: 110PX;
+    padding-top: 60px;
+}
+.footer-one{
+    display: flex;
+    gap: 10px;
+}
+.footer-one h2{
+    color: gray;
+}
+.footer-one p{
+    
+    color: gray;
+}
+.footer-two{
+    display: flex;
+    gap: 10px;
+}
+.footer-two h2{
+    color: gray;
+}
+.footer-two p{
+    color: gray;
+}
+.footer-three{
+    display: flex;
+    gap: 10px;
+}
+.footer-three h2{
+    color: gray;
+}
+.footer-three p{
+    color: gray;
+}
+
+
